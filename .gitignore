@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data and local evaluation output
+data/*.parquet
+data/*.csv
+data/*.duckdb
+data/*.duckdb.wal
+eval/results/*.json
+.pytest-tmp/
